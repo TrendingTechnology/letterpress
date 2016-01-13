@@ -1,7 +1,6 @@
 # purity
 A pure Ghost theme
 
-# Open items
+# Roadmap to 1.0
 
-- [ ] improve CSS for default page viewing
-- [ ] add SASS compilation
+- [x] base on Casper 1.2.7 (done in v0.1.0)
