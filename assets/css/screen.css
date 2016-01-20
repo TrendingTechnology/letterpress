@@ -1605,7 +1605,7 @@ body:not(.post-template) .post-title {
 
 .site-footer {
     position: relative;
-    margin: 8rem 0 0 0;
+    margin: 8rem auto;
     padding: 1rem 15px;
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
@@ -1623,17 +1623,10 @@ body:not(.post-template) .post-title {
     border-bottom: #bbc7cc 1px solid;
 }
 
-.poweredby {
-    display: block;
-    width: 45%;
-    float: right;
-    text-align: right;
-}
-
 .copyright {
-    display: block;
     width: 45%;
-    float: left;
+    margin: auto;
+    text-align: center;
 }
 
 
