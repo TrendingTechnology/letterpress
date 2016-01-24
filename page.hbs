@@ -1,22 +1,64 @@
-{{!< default}}
+<!DOCTYPE html>
+<html>
+<head>
+    {{! Document Settings }}
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-{{! This is a page template. A page outputs content just like any other post, and has all the same
-    attributes by default, but you can also customise it to behave differently if you prefer. }}
+    {{! Page Meta }}
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
 
-{{! Everything inside the #post tags pulls data from the page }}
-{{#post}}
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<main class="content" role="main">
-    <article class="{{post_class}}">
+    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
 
-        <header class="post-header">
-            <h1 class="post-title">{{title}}</h1>
-        </header>
+    {{! Styles'n'Scripts }}
+    <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
 
-        <section class="post-content">
-            {{content}}
-        </section>
+    {{! Ghost outputs important style and meta data with this tag }}
+    {{ghost_head}}
+</head>
+<body class="{{body_class}}">
 
-    </article>
-</main>
-{{/post}}
+    <div class="site-wrapper">
+
+        {{navigation}}
+
+        {{! Everything inside the #post tags pulls data from the page }}
+        {{#post}}
+
+        <main class="content" role="main">
+            <article class="{{post_class}}">
+
+                <header class="post-header">
+                    <h1 class="post-title">{{title}}</h1>
+                </header>
+
+                <section class="post-content">
+                    {{content}}
+                </section>
+
+            </article>
+        </main>
+        {{/post}}
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
+        </footer>
+
+    </div>
+
+    {{!-- jQuery needs to come before `{{ghost_foot}}` so that jQuery can be used in code injection --}}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    {{! Ghost outputs important scripts and data with this tag }}
+    {{ghost_foot}}
+
+    <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
+    {{! The main JavaScript file for Casper }}
+    <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
+
+</body>
+</html>
