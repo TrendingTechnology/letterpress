@@ -4,7 +4,7 @@ A pure Ghost theme
 # Roadmap to 1.0
 
 - [x] base on Casper 1.2.7 (done in v0.1.0)
-- [ ] Improve blog title representation for SEO in <title> tags
+- [ ] Improve blog title representation for SEO in `<title>` tags
 - [ ] Make navigation adaptive based on Ghost navigation helper
 - [ ] Improve site header to be a more flat title bar with blog logo
 
