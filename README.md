@@ -3,12 +3,9 @@ A pure Ghost theme
 
 # Roadmap to 1.0
 
-- [x] base on Casper 1.2.7 (done in v0.1.0)
-- [x] check and add support for Ghost 0.8.0 and higher
 - [ ] add [Prism.js](http://prismjs.com/) to include source code highlighting
 - [ ] Improve blog title representation for SEO in `<title>` tags
 - [ ] Make navigation adaptive based on Ghost navigation helper
-- [ ] Improve site header to be a more flat title bar with blog logo
 
 # Ghost compatibility
 
