@@ -1,0 +1,58 @@
+/*
+
+ Overwrites some of the Casper CSS and creates new CSS for use
+ with the purity theme
+
+ */
+
+/* ==========================================================================
+   1. Footer
+   ========================================================================== */
+
+ .site-footer {
+     margin: auto;
+ }
+
+.copyright {
+    float: none;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* ==========================================================================
+   2. Navigation
+   ========================================================================== */
+
+.headernav {
+  position: relative;
+  width: 80%;
+  max-width: 710px;
+  margin: 4rem auto;
+  padding-bottom: 4rem;
+  border-bottom: #EBF2F6 1px solid;
+  word-wrap: break-word;
+}
+
+.headernav .logo {
+  display: block;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.headernav ul {
+  display: block;
+  list-style-type: none;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+.headernav li {
+  display: block;
+  float: left;
+  padding: 0 2rem;
+  margin: 0;
+}
