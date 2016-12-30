@@ -10,6 +10,7 @@ A pure Ghost theme
 # Ghost compatibility & Casper base version
 
 This theme is tested and compatible with [Ghost](https://github.com/TryGhost/Ghost) 0.11.3.
+
 The theme is based on the excellent [Casper theme](https://github.com/TryGhost/Casper) 1.3.4.
 
 # Ideas
