@@ -7,9 +7,10 @@ A pure Ghost theme
 - [ ] Improve blog title representation for SEO in `<title>` tags
 - [ ] Make navigation adaptive based on Ghost navigation helper
 
-# Ghost compatibility
+# Ghost compatibility & Casper base version
 
-This theme is tested and compatible with Ghost 0.11.3.
+This theme is tested and compatible with [Ghost](https://github.com/TryGhost/Ghost) 0.11.3.
+The theme is based on the excellent [Casper theme](https://github.com/TryGhost/Casper) 1.3.4.
 
 # Ideas
 
@@ -32,7 +33,3 @@ Now to change that for all pages, we create a new template that is not inserted 
     <title>{{meta_title}} - {{@blog.title}}</title>
 
 This way all **posts** still only have the title of the post as the title of the page, but all static pages are shown as `page title - blog title`.
-
-# A tip of the hat to Casper
-
-This theme is based on the excellent [Casper theme](https://github.com/TryGhost/Casper).
