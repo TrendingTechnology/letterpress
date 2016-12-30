@@ -5,7 +5,7 @@ A pure Ghost theme
 
 - [ ] add [Prism.js](http://prismjs.com/) to include source code highlighting
 - [ ] Improve blog title representation for SEO in `<title>` tags
-- [ ] Make navigation adaptive based on Ghost navigation helper
+- [x] Make navigation adaptive based on Ghost navigation helper
 
 # Ghost compatibility & Casper base version
 
