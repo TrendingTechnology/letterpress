@@ -9,7 +9,7 @@ A pure Ghost theme
 
 # Ghost compatibility
 
-This theme is tested and compatible with Ghost 0.9.0.
+This theme is tested and compatible with Ghost 0.11.3.
 
 # Ideas
 
@@ -32,3 +32,7 @@ Now to change that for all pages, we create a new template that is not inserted 
     <title>{{meta_title}} - {{@blog.title}}</title>
 
 This way all **posts** still only have the title of the post as the title of the page, but all static pages are shown as `page title - blog title`.
+
+# A tip of the hat to Casper
+
+This theme is based on the excellent [Casper theme](https://github.com/TryGhost/Casper).
