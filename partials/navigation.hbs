@@ -3,7 +3,8 @@
     {{@blog.title}} - {{@blog.description}}
   </div>
   <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about">About</a></li>
+    {{#foreach navigation}}
+      <li><a href="{{url absolute="true"}}">{{label}}</a></li>
+    {{/foreach}}
   </ul>
 </div>
