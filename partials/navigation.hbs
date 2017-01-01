@@ -1,4 +1,7 @@
 <div class="headernav clearfix">
+  <div class="purity-logo">
+    {{#if @blog.logo}}<a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
+  </div>
   <div class="logo">
     {{@blog.title}} - {{@blog.description}}
   </div>
