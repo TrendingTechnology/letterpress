@@ -1,5 +1,6 @@
-# purity
-A pure Ghost theme
+# letterpress
+
+A simple theme focused on letters and words
 
 # Roadmap to 1.0
 
@@ -7,9 +8,9 @@ A pure Ghost theme
 - [ ] Improve blog title representation for SEO in `<title>` tags
 - [x] Make navigation adaptive based on Ghost navigation helper
 
-# Ghost compatibility & Casper base version
+# Ghost Compatibility
 
-This theme is tested and compatible with [Ghost](https://github.com/TryGhost/Ghost) 0.11.3.
+This theme is tested and compatible with [Ghost](https://github.com/TryGhost/Ghost) 1.21.7
 
 The theme is based on the excellent [Casper theme](https://github.com/TryGhost/Casper) 1.3.4.
 
